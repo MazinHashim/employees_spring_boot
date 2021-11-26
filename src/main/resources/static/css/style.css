@@ -1,0 +1,113 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 50px; 
+}
+/*.contents div[class*="col-"]{padding-left: 0;padding-right: 0;}*/
+
+/*.contents div[class*="col-"]{padding-left: 15;padding-right: 15;}*/
+/* Start Navbar */
+.navbar-inverse .navbar-toggle {border-color: #0f9adf;}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus
+{
+    background-color: #5ee4e4;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+    color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus
+{
+    color: lightcyan;
+}
+.navbar-inverse
+{
+    background-color: #0f988e;
+    color: #93b7ba;
+    border: none;
+}
+.navbar-inverse .navbar-brand
+{
+    color: white;
+}
+.navbar-inverse .navbar-brand span
+{
+    color: #5ee4e4;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus
+{
+    color: lightcyan;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    color: white;
+    background-color: darkcyan;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 2px 2px 10px 7px inset
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus
+{
+    background-color: #5ee4e4; 
+}
+.navbar-nav > li > .dropdown-menu
+{
+    border-top: 2px solid #5ee4e4;
+}
+.dropdown-menu .divider
+{
+    background-color: #5ee4e4
+}
+/* End Navbar */
+
+/* My Framework */
+.undersection .nav > li > a
+{
+    color: white;
+    font-family: Tahoma;
+    letter-spacing: 2px;
+}
+.undersection .nav > li > a:hover,
+.undersection .nav > li.active > a
+{
+    background-color: #0f988e;
+    -webkit-transform: scale(1.06,1.06);
+    -moz-transform: scale(1.06,1.06);
+    -o-transform: scale(1.06,1.06);
+    transform: scale(1.06,1.06);
+}
+.undersection
+{
+    min-height: 575px;
+    background-color: darkcyan;
+}
+.undersection .contents
+{
+    min-height: 575px;
+    background-color: white;
+}
+.undersection .sidebar 
+{
+    width: inherit;
+    position: fixed;
+    height: inherit;
+    padding: 20px 0 5px;
+    color: white;
+    /*margin-left: 15px;*/
+}
+.undersection .contents .panel-info
+{
+	background-color: #fff;
+}
